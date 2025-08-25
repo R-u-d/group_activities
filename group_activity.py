@@ -21,5 +21,9 @@ print(num_to_str(3.1415))
 
 # Umi - Counting sheep
 
-test = [1,2,2]
-test_2 = [3,2,1]
+def count_sheep(sheep): 
+       return sum(sheep)
+sheep_array = [True] * 17
+count = count_sheep(sheep_array)
+print(count)
+
